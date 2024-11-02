@@ -1,5 +1,4 @@
 import { Cloudinary } from '../icons/Cloudinary';
-import { CssIcon } from '../icons/CssIcon';
 import { Nextjs } from '../icons/Nextjs';
 import { ReactJs } from '../icons/React';
 import { TailwindCss } from '../icons/Tailwind';

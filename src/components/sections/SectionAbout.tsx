@@ -1,5 +1,4 @@
 import React from 'react';
-import { TimelineLayoutExperience } from '../personalized/TimelineLayoutExperience';
 import { Vercel } from '../icons/Vercel';
 import { GitHub } from '../icons/GitHub';
 import { Figma } from '../icons/Figma';
