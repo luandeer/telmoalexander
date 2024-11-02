@@ -1,4 +1,5 @@
 import { DownloadCv } from './Download';
+import SocialMediaLinks from './Socials';
 
 export const Header = () => {
 	return (
@@ -7,7 +8,10 @@ export const Header = () => {
 				Telmo A. Perez R.{' '}
 				{/* <div className="w-1.5 h-1.5 rounded-full bg-white self-end" /> */}
 			</div>
-			<DownloadCv />
+			<div className="flex items-center gap-4">
+				<SocialMediaLinks />
+				<DownloadCv />
+			</div>
 		</div>
 	);
 };

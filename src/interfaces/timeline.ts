@@ -3,6 +3,7 @@ export interface TimelineElement {
 	title: string;
 	date: string;
 	description: string;
+	stack?: string;
 }
 
 export interface TimelineEducation {

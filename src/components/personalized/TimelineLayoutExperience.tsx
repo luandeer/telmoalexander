@@ -25,12 +25,16 @@ export const TimelineLayoutExperience = ({ items }: TimelineLayoutProps) => {
 				<TimelineHeader>
 					<TimelineTime className="text-white">{items[0].date}</TimelineTime>
 					<TimelineIcon className="bg-white" />
-					<TimelineTitle className="text-white">{items[0].title}</TimelineTitle>
+					<TimelineTitle className="text-white leading-normal">
+						{items[0].title}
+					</TimelineTitle>
 				</TimelineHeader>
 				<TimelineContent>
-					<TimelineDescription className="md:max-w-sm">
+					<TimelineDescription className="mb-6">
 						{items[0].description}
 					</TimelineDescription>
+					<h2 className="text-white text-sm">Stack:</h2>
+					<p className="text-gray-300 text-sm">{items[0].stack}</p>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
@@ -38,24 +42,32 @@ export const TimelineLayoutExperience = ({ items }: TimelineLayoutProps) => {
 				<TimelineHeader>
 					<TimelineTime className="text-white">{items[1].date}</TimelineTime>
 					<TimelineIcon className="bg-white" />
-					<TimelineTitle className="text-white">{items[1].title}</TimelineTitle>
+					<TimelineTitle className="text-white leading-normal">
+						{items[1].title}
+					</TimelineTitle>
 				</TimelineHeader>
 				<TimelineContent>
-					<TimelineDescription className="md:max-w-sm">
+					<TimelineDescription className="mb-6">
 						{items[1].description}
 					</TimelineDescription>
+					<h2 className="text-white text-sm">Stack:</h2>
+					<p className="text-gray-300 text-sm">{items[1].stack}</p>
 				</TimelineContent>
 			</TimelineItem>
 			<TimelineItem>
 				<TimelineHeader>
 					<TimelineTime className="text-white">{items[2].date}</TimelineTime>
 					<TimelineIcon className="bg-white" />
-					<TimelineTitle className="text-white">{items[2].title}</TimelineTitle>
+					<TimelineTitle className="text-white leading-normal">
+						{items[2].title}
+					</TimelineTitle>
 				</TimelineHeader>
 				<TimelineContent>
-					<TimelineDescription className="md:max-w-sm">
+					<TimelineDescription className="mb-6">
 						{items[2].description}
 					</TimelineDescription>
+					<h2 className="text-white text-sm">Stack:</h2>
+					<p className="text-gray-300 text-sm">{items[2].stack}</p>
 				</TimelineContent>
 			</TimelineItem>
 		</Timeline>

@@ -93,11 +93,21 @@ const config: Config = {
 						transform: 'translateY(calc(-100% - var(--gap)))',
 					},
 				},
+				levitate: {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-20px)' }, // Levitación suave
+				},
+				levitateProject: {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-8px)' }, // Levitación suave
+				},
 			},
 			animation: {
 				wave: 'wave 2.5s ease-in-out infinite',
 				marquee: 'marquee var(--duration) infinite linear',
 				'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
+				levitate: 'levitate 3s ease-in-out infinite',
+				levitateProject: 'levitateProject 4s ease-in-out infinite',
 			},
 		},
 	},

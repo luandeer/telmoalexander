@@ -1,38 +1,38 @@
 import { LinkedinIcon, MailIcon } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 
 export function SectionContact() {
-	const { t } = useTranslation();
 	return (
 		<section id="contact">
-			<div className="text-center flex flex-col gap-5 rounded-xl border border-neutral-500/20 shadow-[0_0_6px_0_black] py-10 px-1.5 text-gray-300 ">
-				<h3 className="text-3xl md:text-4xl font-bold">
-					{t('¡Construyamos algo increíble juntos!')}
+			<div className="text-center flex flex-col gap-5 rounded-xl border border-neutral-500/20 shadow-[0_0_6px_0_black] py-10 px-4 sm:px-1.5 text-gray-300 ">
+				<h3 className="text-2xl md:text-4xl font-bold !leading-snug">
+					¡Construyamos algo increíble juntos!
 				</h3>
-				<div>
+				<div className="text-sm sm:text-base">
 					<p className="text-customGray">
-						{t('¡Hablemos!, Estoy a un mensaje de distancia.')}{' '}
+						¡Hablemos!, Estoy a un mensaje de distancia.
 					</p>
 
 					<p className="text-customGray">
-						{t('Siempre abierto a nuevas oportunidades emocionantes.')}
+						Siempre abierto a nuevas oportunidades emocionantes.
 					</p>
 				</div>
-				<div className="flex gap-2.5 md:gap-4 m-auto font-semibold">
+				<div className="flex flex-col md:flex-row items-center gap-2 justify-center font-medium">
 					<Link
-						href="mailto:benjamin.federico6@Gmail.com"
-						className="flex items-center gap-2"
+						href="https://mail.google.com/mail/?view=cm&fs=1&to=alexanderperezreginaldo@gmail.com"
+						className="flex items-center gap-2 underline"
+						target="_blank"
 					>
-						<MailIcon /> Mail
+						<MailIcon /> alexanderperezreginaldo@gmail.com
 					</Link>
 
 					<Link
-						href="https://www.linkedin.com/in/federicobenjamin/"
-						className="flex items-center gap-2"
+						href="https://www.linkedin.com/in/telmoalexander/"
+						className="flex items-center gap-2 underline"
+						target="_blank"
 					>
-						<LinkedinIcon /> Linkedin
+						<LinkedinIcon /> telmoalexander
 					</Link>
 				</div>
 			</div>
