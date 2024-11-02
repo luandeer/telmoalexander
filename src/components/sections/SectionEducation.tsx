@@ -9,8 +9,7 @@ export const SectionEducation = () => {
 					Educación
 				</h3>
 				<p className=" text-gray-300 max-w-md mx-auto leading-tight">
-					Con base en una sólida formación en Ingeniería de Software, he
-					aprendido y aplicado principios clave en desarrollo, diseño de
+					He aprendido y aplicado principios clave en desarrollo, diseño de
 					software y calidad en cada proyecto.
 				</p>
 			</div>

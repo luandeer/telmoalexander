@@ -11,29 +11,29 @@ export const SectionHero = () => {
 				<div className="flex flex-col justify-center gap-8 h-full lg:flex-row lg:items-center lg:gap-11 text-white">
 					<div className="flex flex-col gap-5 lg:w-1/2">
 						<div className="space-y-2">
-							<div className="flex items-center gap-2 text-gray-400/80 font-medium">
+							<div className="flex items-center gap-2 text-gray-300 font-medium">
 								<span className="relative flex h-3 w-3">
 									<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
 									<span className="relative inline-flex rounded-full h-3 w-3 bg-amber-300"></span>
 								</span>
 								<span className="text-sm md:text-lg ">
-									Frontend Developer / Software Engineer
+									Frontend Developer & Software Engineer
 								</span>
 								{/* <Avatar className="mr-2">
 									<AvatarImage src="/myphoto.jpg" alt="@shadcn" />
 									<AvatarFallback className="animate-pulse bg-[#f2f2f2]" />
 								</Avatar> */}
 							</div>
-							<div className="h-px w-24 bg-gradient-to-r from-amber-300/50 to-transparent"></div>
+							{/* <div className="h-px w-24 bg-gradient-to-r from-amber-300/50 to-transparent"></div> */}
 						</div>
 
 						<div className=" text-start text-4xl font-bold tracking-[-0.02em] drop-shadow-sm [text-wrap:balance] md:text-6xl md:leading-[5rem] text-gray-100 ">
 							<div className="flex items-center justify-start gap-2 md:text-4xl font-normal">
 								Hola <Hand className="animate-wave size-10 " />, soy
 							</div>
-							<h1>Alexander Perez</h1>
+							<h1>Telmo Alexander </h1>
 						</div>
-						<div className="flex items-center text-sm gap-2">
+						<div className="flex items-center text-sm gap-2 ">
 							<Link
 								href="#projects"
 								className="bg-white rounded-xl px-4 py-1.5 text-gray-700 flex items-center gap-2"

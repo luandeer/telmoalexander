@@ -14,7 +14,7 @@ export const DownloadCv = () => {
 			onClick={() => toast.success('Se descargó exitosamente')}
 		>
 			<Download size="20" />
-			Descargar CV
+			<span className="hidden md:block">Descargar </span>CV
 		</Link>
 	);
 };

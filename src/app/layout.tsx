@@ -30,7 +30,8 @@ export default function RootLayout({
 				className={`${geistSans.variable} ${geistMono.variable} antialiased relative  min-h-screen`}
 			>
 				{/* <div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_600px_at_0%_-200px,#d5c5ff,transparent)] opacity-15 pointer-events-none " /> */}
-				<div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_600px_at_100%_-200px,#d5c5ff,transparent)] opacity-25 pointer-events-none " />
+				<div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_600px_at_100%_-200px,#d5c5ff,transparent)] opacity-25 pointer-events-none  z-10" />
+
 				{children}
 				<Toaster richColors closeButton />
 			</body>
