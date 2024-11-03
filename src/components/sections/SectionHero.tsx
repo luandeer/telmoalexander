@@ -3,6 +3,7 @@ import { ArrowAbajo } from '../icons/ArrowAbajo';
 import { ScrollArrow } from '../icons/ScrollArrow';
 import HeaderMarquee from '../personalized/carousel';
 import Particles from '../personalized/Particles';
+import { Hand } from 'lucide-react';
 
 export const SectionHero = () => {
 	return (
@@ -21,8 +22,8 @@ export const SectionHero = () => {
 						<div className="space-y-2">
 							<div className="flex items-center gap-2 text-gray-300 font-medium">
 								<span className="relative flex h-3 w-3">
-									<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-									<span className="relative inline-flex rounded-full h-3 w-3 bg-amber-300"></span>
+									<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-700 opacity-75"></span>
+									<span className="relative inline-flex rounded-full h-3 w-3 bg-blue-600"></span>
 								</span>
 								<span className="text-sm md:text-lg ">
 									Frontend Developer & Software Engineer
@@ -31,11 +32,11 @@ export const SectionHero = () => {
 							{/* <div className="h-px w-24 bg-gradient-to-r from-amber-300/50 to-transparent"></div> */}
 						</div>
 
-						<div className=" text-start text-4xl font-bold tracking-[-0.02em] drop-shadow-sm [text-wrap:balance] md:text-6xl md:leading-[5rem] text-gray-100 ">
-							{/* <div className="flex items-center justify-start gap-2 md:text-4xl font-normal">
+						<div className=" text-start text-4xl font-bold  drop-shadow-sm  md:text-6xl  text-gray-100 ">
+							<div className="flex items-center justify-start gap-2 md:text-4xl font-normal">
 								Hola <Hand className="animate-wave size-10 " />, soy
-							</div> */}
-							<h1>Hola!, soy Alexander </h1>
+							</div>
+							<h1>soy Alexander </h1>
 						</div>
 						<div className="flex items-center text-sm gap-2 ">
 							<Link
@@ -94,8 +95,8 @@ export const SectionHero = () => {
 							<div className="space-y-1">
 								<div className="flex items-center gap-2 text-gray-300 font-medium">
 									<span className="relative flex h-2 w-2">
-										<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-										<span className="relative inline-flex rounded-full h-2 w-2 bg-amber-300"></span>
+										<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-700 opacity-75"></span>
+										<span className="relative inline-flex rounded-full h-2 w-2 bg-blue-600"></span>
 									</span>
 									<span className="text-sm md:text-base ">
 										Tecnologías que uso:

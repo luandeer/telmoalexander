@@ -18,7 +18,7 @@ export function SectionContact() {
 						Siempre abierto a nuevas oportunidades emocionantes.
 					</p>
 				</div>
-				<div className="flex flex-col md:flex-row items-center gap-2 justify-center font-medium">
+				<div className="flex flex-col md:flex-row items-center gap-2 sm:gap-4 justify-center font-medium">
 					<Link
 						href="https://mail.google.com/mail/?view=cm&fs=1&to=alexanderperezreginaldo@gmail.com"
 						className="flex items-center gap-2 underline"

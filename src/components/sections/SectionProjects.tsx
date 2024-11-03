@@ -17,12 +17,12 @@ const projects = [
 		techs: [
 			{
 				img: Nextjs,
-				tag: 'NEXTJS',
+				tag: 'Next js',
 				alt: 'Next.js tech logo',
 			},
 			{
 				img: ReactJs,
-				tag: 'REACT',
+				tag: 'React',
 				alt: 'React tech logo',
 			},
 			{
@@ -32,17 +32,17 @@ const projects = [
 			},
 			{
 				img: TailwindCss,
-				tag: 'TAILWIND',
+				tag: 'Tailwind css',
 				alt: 'Tailwind CSS tech logo',
 			},
 			{
 				img: Cloudinary,
-				tag: 'TAILWIND',
+				tag: 'Cloudinary',
 				alt: 'Tailwind CSS tech logo',
 			},
 			{
 				img: Vercel,
-				tag: 'TAILWIND',
+				tag: 'Vercel',
 				alt: 'Tailwind CSS tech logo',
 			},
 		],
@@ -57,27 +57,27 @@ const projects = [
 		techs: [
 			{
 				img: TypeScript,
-				tag: 'JAVASCRIPT',
+				tag: 'Javascript',
 				alt: 'JavaScript tech logo',
 			},
 			{
 				img: Nextjs,
-				tag: 'NEXTJS',
+				tag: 'Next js',
 				alt: 'Next.js tech logo',
 			},
 			{
 				img: TailwindCss,
-				tag: 'TAILWIND',
+				tag: 'Tailwind css',
 				alt: 'Tailwind CSS tech logo',
 			},
 			{
 				img: Cloudinary,
-				tag: 'TAILWIND',
+				tag: 'Cloudinary',
 				alt: 'Tailwind CSS tech logo',
 			},
 			{
 				img: Vercel,
-				tag: 'TAILWIND',
+				tag: 'Vercel',
 				alt: 'Tailwind CSS tech logo',
 			},
 		],
@@ -92,22 +92,22 @@ const projects = [
 		techs: [
 			{
 				img: TypeScript,
-				tag: 'JAVASCRIPT',
+				tag: 'Typescript',
 				alt: 'JavaScript tech logo',
 			},
 			{
 				img: Nextjs,
-				tag: 'NEXTJS',
+				tag: 'Next js',
 				alt: 'Next.js tech logo',
 			},
 			{
 				img: TailwindCss,
-				tag: 'TAILWIND',
+				tag: 'Tailwind css',
 				alt: 'Tailwind CSS tech logo',
 			},
 			{
 				img: Cloudinary,
-				tag: 'TAILWIND',
+				tag: 'Cloudinary',
 				alt: 'Tailwind CSS tech logo',
 			},
 		],
@@ -122,17 +122,17 @@ const projects = [
 		techs: [
 			{
 				img: TypeScript,
-				tag: 'JAVASCRIPT',
+				tag: 'Typescript',
 				alt: 'JavaScript tech logo',
 			},
 			{
 				img: Nextjs,
-				tag: 'NEXTJS',
+				tag: 'Next js',
 				alt: 'Next.js tech logo',
 			},
 			{
 				img: TailwindCss,
-				tag: 'TAILWIND',
+				tag: 'Tailwind CSS',
 				alt: 'Tailwind CSS tech logo',
 			},
 		],
@@ -141,10 +141,7 @@ const projects = [
 
 export function SectionProjects() {
 	return (
-		<section
-			id="projects"
-			className="flex flex-col gap-7 lg:gap-11 pt-10 sm:pt-32"
-		>
+		<section id="projects" className="flex flex-col gap-7 lg:gap-11 pt-10 ">
 			<div className="text-center space-y-2">
 				<h3 className="text-3xl md:text-4xl max-md:mb-1 font-bold text-white">
 					Proyectos
